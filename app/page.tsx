@@ -11,14 +11,14 @@ export default function Home() {
         <ParticleField />
         <div className="container mx-auto container-padding section-padding relative z-10">
           <div className="asymmetric-grid">
-            <div className="space-y-8 text-center lg:text-left animate-fade-in">
-              <h1 className="gradient-text leading-tight animate-slide-up">
+            <div className="space-y-8 text-center lg:text-left">
+              <h1 className="gradient-text leading-tight">
                 Unlock AI for Your Business
               </h1>
-              <p className="text-xl text-charcoal-gray/80 max-w-2xl mx-auto lg:mx-0 animate-slide-up-delay">
+              <p className="text-xl text-charcoal-gray/80 max-w-2xl mx-auto lg:mx-0">
                 From prompts to profits: We make AI work for you. Expert integration, optimization, and custom development for SMBs ready to transform.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-up-delay-2">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="#audit-form" className="btn-audit inline-block text-center">
                   AUDIT MY BUSINESS
                 </a>
@@ -27,7 +27,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="relative h-[400px] lg:h-[600px] order-first lg:order-last animate-scale-in">
+            <div className="relative h-[400px] lg:h-[600px] order-first lg:order-last">
               {/* Interactive AI Visualization */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-72 h-72 lg:w-96 lg:h-96 bg-gradient-to-br from-deep-indigo/20 to-vibrant-teal/20 rounded-full blur-3xl animate-float"></div>
@@ -42,11 +42,11 @@ export default function Home() {
       {/* Services Preview */}
       <section className="section-padding bg-gradient-to-br from-soft-lavender/10 to-transparent">
         <div className="container mx-auto container-padding">
-          <h2 className="text-center mb-16 gradient-text animate-fade-in-scroll">
+          <h2 className="text-center mb-16 gradient-text">
             Transform Your Business with AI
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20 animate-fade-in-scroll">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20">
               <div className="w-16 h-16 bg-gradient-to-br from-deep-indigo to-vibrant-teal rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
@@ -55,7 +55,7 @@ export default function Home() {
                 Seamlessly integrate AI into your existing workflows. We identify opportunities and implement solutions that deliver real ROI.
               </p>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20 animate-fade-in-scroll">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20">
               <div className="w-16 h-16 bg-gradient-to-br from-vibrant-teal to-lime-green rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
@@ -64,7 +64,7 @@ export default function Home() {
                 Master the art of AI communication. We optimize prompts for video, image, and text generation to get perfect results every time.
               </p>
             </div>
-            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20 sm:col-span-2 lg:col-span-1 animate-fade-in-scroll">
+            <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 card-hover shadow-xl border border-white/20 sm:col-span-2 lg:col-span-1">
               <div className="w-16 h-16 bg-gradient-to-br from-lime-green to-deep-indigo rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
@@ -80,11 +80,11 @@ export default function Home() {
       {/* Testimonials */}
       <section className="section-padding bg-gradient-to-br from-deep-indigo/5 to-vibrant-teal/5">
         <div className="container mx-auto container-padding">
-          <h2 className="text-center mb-16 gradient-text animate-fade-in-scroll">
+          <h2 className="text-center mb-16 gradient-text">
             Success Stories
           </h2>
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 lg:p-12 shadow-2xl border border-white/30 relative overflow-hidden animate-fade-in-scroll">
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 lg:p-12 shadow-2xl border border-white/30 relative overflow-hidden">
               {/* Decorative elements */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-vibrant-teal/10 to-transparent rounded-full -translate-y-16 translate-x-16"></div>
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-deep-indigo/10 to-transparent rounded-full translate-y-12 -translate-x-12"></div>

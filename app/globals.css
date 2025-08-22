@@ -160,6 +160,7 @@
   /* CSS Animation Classes to replace Framer Motion */
   .animate-fade-in {
     animation: fadeIn 0.8s ease-out forwards;
+    opacity: 1; /* Fallback for no animation support */
   }
 
   .animate-slide-up {
@@ -185,8 +186,22 @@
 
   .animate-fade-in-scroll {
     animation: fadeInScroll 0.6s ease-out forwards;
-    opacity: 0;
-    transform: translateY(30px);
+    opacity: 1; /* Fallback - show content immediately */
+    transform: translateY(0); /* Fallback position */
+  }
+
+  /* Ensure content is visible even without animations */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-in,
+    .animate-slide-up,
+    .animate-slide-up-delay,
+    .animate-slide-up-delay-2,
+    .animate-scale-in,
+    .animate-fade-in-scroll {
+      opacity: 1 !important;
+      transform: none !important;
+      animation: none !important;
+    }
   }
 
   .icon-hover {

@@ -27,7 +27,7 @@ export default function AuditForm() {
   }
 
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto animate-fade-in-scroll">
+    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-heading mb-2 gradient-text">
         Get Your Free AI Audit
       </h2>
