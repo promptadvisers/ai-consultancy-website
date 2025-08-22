@@ -1,3 +1,5 @@
+'use client'
+
 import AuditForm from '@/components/AuditForm'
 import ParticleField from '@/components/ParticleField'
 import Button from '@/components/Button'
