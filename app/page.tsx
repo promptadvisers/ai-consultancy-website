@@ -89,7 +89,7 @@ export default function Home() {
               
               <div className="relative z-10">
                 <p className="text-xl lg:text-2xl italic mb-8 text-charcoal-gray/80 leading-relaxed">
-                  "They helped us automate 40% of our customer service with AI, saving us 20 hours per week. The ROI was immediate and impressive."
+                  &quot;They helped us automate 40% of our customer service with AI, saving us 20 hours per week. The ROI was immediate and impressive.&quot;
                 </p>
                 <div className="flex items-center gap-6">
                   <div className="w-16 h-16 bg-gradient-to-br from-deep-indigo to-vibrant-teal rounded-full flex items-center justify-center">
