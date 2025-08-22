@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-heading mb-4 text-vibrant-teal">
+            <h3 className="text-2xl mb-4 text-vibrant-teal" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
               AI Consultancy
             </h3>
             <p className="text-gray-300">

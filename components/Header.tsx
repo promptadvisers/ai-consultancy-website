@@ -12,7 +12,7 @@ export default function Header() {
     <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200/20">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-heading font-bold gradient-text">
+          <Link href="/" className="text-2xl font-bold gradient-text" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
             AI Consultancy
           </Link>
 

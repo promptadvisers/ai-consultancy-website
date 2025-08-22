@@ -28,7 +28,7 @@ export default function AuditForm() {
 
   return (
     <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-heading mb-2 gradient-text">
+      <h2 className="text-3xl md:text-4xl mb-2 gradient-text" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>
         Get Your Free AI Audit
       </h2>
       <p className="text-charcoal-gray/70 mb-8">

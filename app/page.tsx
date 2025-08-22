@@ -50,7 +50,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-br from-deep-indigo to-vibrant-teal rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
-              <h3 className="text-2xl mb-4 text-deep-indigo font-heading">AI Integration</h3>
+              <h3 className="text-2xl mb-4 text-deep-indigo" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>AI Integration</h3>
               <p className="text-charcoal-gray/70 leading-relaxed">
                 Seamlessly integrate AI into your existing workflows. We identify opportunities and implement solutions that deliver real ROI.
               </p>
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-br from-vibrant-teal to-lime-green rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
-              <h3 className="text-2xl mb-4 text-deep-indigo font-heading">Prompt Optimization</h3>
+              <h3 className="text-2xl mb-4 text-deep-indigo" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>Prompt Optimization</h3>
               <p className="text-charcoal-gray/70 leading-relaxed">
                 Master the art of AI communication. We optimize prompts for video, image, and text generation to get perfect results every time.
               </p>
@@ -68,7 +68,7 @@ export default function Home() {
               <div className="w-16 h-16 bg-gradient-to-br from-lime-green to-deep-indigo rounded-xl mb-6 flex items-center justify-center icon-hover">
                 <div className="w-8 h-8 bg-white/20 rounded-lg"></div>
               </div>
-              <h3 className="text-2xl mb-4 text-deep-indigo font-heading">Custom Apps</h3>
+              <h3 className="text-2xl mb-4 text-deep-indigo" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>Custom Apps</h3>
               <p className="text-charcoal-gray/70 leading-relaxed">
                 Get custom AI-powered applications built for your specific needs. Affordable, scalable solutions that grow with your business.
               </p>
@@ -98,7 +98,7 @@ export default function Home() {
                     <div className="w-12 h-12 bg-white/20 rounded-full"></div>
                   </div>
                   <div>
-                    <p className="font-semibold text-deep-indigo text-lg font-heading">Sarah Chen</p>
+                    <p className="font-semibold text-deep-indigo text-lg" style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}>Sarah Chen</p>
                     <p className="text-charcoal-gray/60">CEO, TechStart Solutions</p>
                   </div>
                 </div>
