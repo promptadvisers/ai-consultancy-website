@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --color-deep-indigo: 75 0 130;
+    --color-vibrant-teal: 0 191 165;
+    --color-soft-lavender: 230 230 250;
+    --color-charcoal-gray: 51 51 51;
+    --color-off-white: 245 245 245;
+    --color-lime-green: 50 205 50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl lg:text-7xl;
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl;
+  }
+
+  h3 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-4 bg-deep-indigo text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-8 py-4 bg-vibrant-teal text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .btn-audit {
+    @apply px-10 py-5 bg-lime-green text-charcoal-gray font-bold text-lg uppercase rounded-lg transition-all duration-300 hover:animate-glow hover:scale-110 shadow-lg;
+    background: linear-gradient(135deg, #32CD32 0%, #3FFF3F 100%);
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-deep-indigo to-vibrant-teal bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/10 border border-white/20;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:translate-y-[-8px] hover:shadow-2xl;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-particle {
+    animation: particle 15s infinite;
+  }
+
+  .golden-ratio {
+    aspect-ratio: 1.618 / 1;
+  }
+
+  .asymmetric-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.618fr;
+    gap: 2rem;
+  }
+}
