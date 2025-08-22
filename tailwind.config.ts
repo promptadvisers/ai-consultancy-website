@@ -10,6 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
         'deep-indigo': '#4B0082',
         'vibrant-teal': '#00BFA5',
         'soft-lavender': '#E6E6FA',

@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import ThemeToggle from './ThemeToggle'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,21 +18,22 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-charcoal-gray hover:text-deep-indigo transition-colors">
+            <Link href="/" className="text-charcoal-gray hover:text-deep-indigo transition-colors dark:text-gray-200 dark:hover:text-vibrant-teal">
               Home
             </Link>
-            <Link href="/services" className="text-charcoal-gray hover:text-deep-indigo transition-colors">
+            <Link href="/services" className="text-charcoal-gray hover:text-deep-indigo transition-colors dark:text-gray-200 dark:hover:text-vibrant-teal">
               Services
             </Link>
-            <Link href="/about" className="text-charcoal-gray hover:text-deep-indigo transition-colors">
+            <Link href="/about" className="text-charcoal-gray hover:text-deep-indigo transition-colors dark:text-gray-200 dark:hover:text-vibrant-teal">
               About
             </Link>
-            <Link href="/case-studies" className="text-charcoal-gray hover:text-deep-indigo transition-colors">
+            <Link href="/case-studies" className="text-charcoal-gray hover:text-deep-indigo transition-colors dark:text-gray-200 dark:hover:text-vibrant-teal">
               Case Studies
             </Link>
-            <Link href="/contact" className="text-charcoal-gray hover:text-deep-indigo transition-colors">
+            <Link href="/contact" className="text-charcoal-gray hover:text-deep-indigo transition-colors dark:text-gray-200 dark:hover:text-vibrant-teal">
               Contact
             </Link>
+            <ThemeToggle />
             <button className="btn-primary">
               Get Started
             </button>

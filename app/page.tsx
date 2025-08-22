@@ -1,11 +1,14 @@
 import AuditForm from '@/components/AuditForm'
+import ParticleField from '@/components/ParticleField'
+import Button from '@/components/Button'
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section with AI Visualization */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-off-white via-soft-lavender/20 to-vibrant-teal/10 min-h-screen flex items-center">
-        <div className="container mx-auto px-6 py-20">
+      <section className="relative overflow-hidden bg-gradient-to-br from-off-white via-soft-lavender/20 to-vibrant-teal/10 dark:from-gray-900 dark:via-deep-indigo/20 dark:to-vibrant-teal/10 min-h-screen flex items-center">
+        <ParticleField />
+        <div className="container mx-auto px-6 py-20 relative z-10">
           <div className="asymmetric-grid items-center">
             <div className="space-y-8">
               <h1 className="gradient-text leading-tight">
