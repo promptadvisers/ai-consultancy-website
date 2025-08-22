@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
 
 export default function ParticleField() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -95,12 +94,9 @@ export default function ParticleField() {
   }, [])
 
   return (
-    <motion.canvas
+    <canvas
       ref={canvasRef}
-      className="absolute inset-0 pointer-events-none"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 2 }}
+      className="absolute inset-0 pointer-events-none opacity-60"
     />
   )
 }

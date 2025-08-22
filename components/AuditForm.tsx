@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { motion } from 'framer-motion'
 
 export default function AuditForm() {
   const [formData, setFormData] = useState({
@@ -28,12 +27,7 @@ export default function AuditForm() {
   }
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto"
-    >
+    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-2xl mx-auto animate-fade-in-scroll">
       <h2 className="text-3xl md:text-4xl font-heading mb-2 gradient-text">
         Get Your Free AI Audit
       </h2>
@@ -142,15 +136,13 @@ export default function AuditForm() {
           </div>
         </div>
 
-        <motion.button
+        <button
           type="submit"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="btn-audit w-full text-xl"
+          className="btn-audit w-full text-xl hover:scale-105 transition-transform duration-300"
         >
           AUDIT MY BUSINESS
-        </motion.button>
+        </button>
       </form>
-    </motion.div>
+    </div>
   )
 }
